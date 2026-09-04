@@ -1,5 +1,5 @@
 name: CI
-
+# CI workflow practice
 on:
   push:
     branches: [advanced]
