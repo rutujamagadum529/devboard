@@ -1,5 +1,7 @@
 name: CI
+
 # CI workflow practice
+
 on:
   push:
     branches: [advanced]
@@ -21,7 +23,7 @@ jobs:
 
       - name: Install npm package
         run: npm install --legacy-peer-deps
-        working-directory: frontend 
+        working-directory: frontend
 
       - name: Run Linter
         working-directory: frontend
